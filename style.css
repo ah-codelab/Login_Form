@@ -98,6 +98,11 @@ body {
   font-weight: 400;
   opacity: 0.9;
   box-shadow: 0 0 1.4px 0px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.box-for-login-google:hover {
+  border-color: black;
 }
 
 .box-for-login-apple {
@@ -112,6 +117,12 @@ body {
   font-weight: 400;
   opacity: 0.9;
   box-shadow: 0 0 1.4px 0px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.box-for-login-apple:hover {
+  border-color: black;
 }
 
 .para-for-continue {
@@ -129,6 +140,36 @@ hr {
   color: rgba(0, 0, 0, 0.8);
   letter-spacing: 0px;
   background-color: white;
-  padding: 0 5px 0 5px;
+  padding: 0 7px 0 7px;
   font-family: arial;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+label {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--primary_color);
+  margin-bottom: -3px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  text-align: left;
+  margin-bottom: 10px;
+  padding-right: 5px;
+}
+
+a {
+  text-align: center;
+  font-size: 14px;
+  color: rgb(111, 8, 180);
+  cursor: pointer;
 }
